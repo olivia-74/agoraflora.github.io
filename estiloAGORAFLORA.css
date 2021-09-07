@@ -1,0 +1,110 @@
+.p{
+  color: lavender;
+  font-family: "Raleway", sans-serif;
+  background-color: hsl(30, 19%, 15%);
+  font-size: 15px;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.flex{
+display: flex;
+justify-content: space-between;
+}
+
+.header2{
+  text-align: center;
+  font-size: 40mm;
+  position: relative;
+  margin: 20px;
+  padding-top: 10px;
+  font-family: "Clicker Script", cursive;
+  letter-spacing: 5px;
+  color: lavender;
+}
+
+.caixa-g{
+  background-color: #fafafa;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding: 20px;
+  width:  60%;
+  min-height: 60mm;
+  margin-left: 20px;
+  margin-top: 25px;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 19%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  font-family: "Raleway", sans-serif;
+  color: black;
+} 
+
+.floracast{
+  text-align-last: justify, right;
+}
+
+.caixa-p{
+  background-color:#A4B488;
+  float: right !important;
+  display: block;
+  padding: 15px;
+  min-width: 30%;
+  margin: 10px;
+  margin-left: 40px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  justify-content: stretch;
+}
+
+.caixa-texto{
+  background-color: #ffffff;
+  color: black;
+  text-align: justify;
+  float: center;
+  display: block;
+  margin: 10px;
+}
+
+
+.rodape {
+  padding: 20px;
+  text-align: center;
+  align-self: bottom;
+  background-color: #1b1106; color: #ffffff;
+}
+
+.data {
+  color: rgba(0, 0, 0, 0.589);
+  font-family: sans-serif;
+}
+
+.texto{
+  text-align: justify;
+  font-family: "sans-serif";
+  color: black;
+}
+
+.g-col-4, .g-col-6{
+  padding: 10px !important;
+  position: sticky;
+  display: block;
+}
+
+.posicao {
+position: absolute;
+left: 0;
+top: 0;
+width: 150px;
+height: 100px;
+}
+
+.txt{
+text-align: justify, left;
+}
+
+
+
+</style>
+</head>
